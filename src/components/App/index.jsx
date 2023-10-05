@@ -60,7 +60,7 @@ export default function App() {
 
   return (
     <div className="app">
-      <h1>My To-Do List in React</h1>
+      <h1>My To-Do List</h1>
       <Form
         newTaskLabel={newTaskLabel}
         setNewTaskLabel={setNewTaskLabel}

@@ -1,13 +1,14 @@
 .form-item {
     width: 100%;
-    color: #fff;
+    color: #5476DE;
     font-size: 2em;
-    background: #1c382f;
-    border: 1px solid #183129;
-    box-shadow: inset 0 0 25px rgba(0, 0, 0, .1);
-    padding: 1rem;
-  
+    background: #F9F871;
+    border: 1px solid #5476DE;
+    border-radius: 5px;
+    // box-shadow: inset 0 0 25px rgba(0, 0, 0, .1);
+    padding: 1rem 0;
     &::placeholder {
-      color: rgba(255, 255, 255, 0.5);
+      color: #5476de93;
+      text-align: center;
     }
   }

@@ -6,6 +6,7 @@ export default function Task({ label, done, id, toggleDoneTask, deleteTask }) {
     <li>
       <label className={done ? 'list-item list-item--done' : 'list-item'}>
         <input
+          className="check"
           type="checkbox"
           id={id}
           checked={done}

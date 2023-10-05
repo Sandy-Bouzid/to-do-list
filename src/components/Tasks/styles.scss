@@ -1,17 +1,39 @@
 .list-item {
-    display: block;
-    background: #eee;
-    border-radius: 3px;
-    padding: 1rem;
-    margin: 0.5rem 0;
-  
-    &--done {
-      opacity: 0.5;
-      text-decoration: line-through;
-    }
+  display: block;
+  background: #F9F871;
+  color: #5476DE;
+  font-size: 1.5em;
+  border-radius: 3px;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  padding-inline-start: 0px;
+  &--done {
+    opacity: 0.5;
+    text-decoration: line-through;
   }
-  
-  .delete{
-    display: block;
-    float: right;
-  }
+}
+
+ul{
+  padding-inline-start: 0px;
+}
+.delete {
+  display: block;
+  float: right;
+  font-size: 1.3rem;
+  background-color: #5476DE;
+  color: #CA70D2;
+  border: 2px solid #5476DE;
+}
+
+.delete:hover {
+  background-color: #CA70D2;
+  color: #5476DE;
+}
+
+li {
+  list-style-type: none;
+}
+
+.check {
+  visibility: hidden;
+}
