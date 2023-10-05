@@ -1,0 +1,13 @@
+.form-item {
+    width: 100%;
+    color: #fff;
+    font-size: 2em;
+    background: #1c382f;
+    border: 1px solid #183129;
+    box-shadow: inset 0 0 25px rgba(0, 0, 0, .1);
+    padding: 1rem;
+  
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.5);
+    }
+  }
