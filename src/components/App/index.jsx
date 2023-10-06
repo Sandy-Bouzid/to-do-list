@@ -6,6 +6,7 @@ import './styles.scss';
 import data from '../../data/tasks';
 import { useState } from 'react'
 import Header from '../Header';
+import Footer from '../Footer';
 
 
 export default function App() {
@@ -73,7 +74,7 @@ export default function App() {
         toggleDoneTask={toggleDoneTask}
         deleteTask={deleteTask}
       />
-      <a href="https://www.flaticon.com/free-icons/sticky-notes" title="sticky notes icons">Sticky notes icons created by Freepik - Flaticon</a>
+      <Footer />
     </div>
   );
 }
