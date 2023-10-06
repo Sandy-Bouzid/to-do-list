@@ -1,14 +1,18 @@
 .form-item {
-    width: 100%;
-    color: #5476DE;
-    font-size: 2em;
-    background: #F9F871;
-    border: 1px solid #5476DE;
-    border-radius: 5px;
-    // box-shadow: inset 0 0 25px rgba(0, 0, 0, .1);
-    padding: 1rem 0;
-    &::placeholder {
-      color: #5476de93;
-      text-align: center;
-    }
+  width: 98%;
+  color: #5476DE;
+  font-size: 2em;
+  background: #F9F871;
+  border: 1px solid #5476DE;
+  border-radius: 5px;
+  padding: 1rem 1%;
+
+  &::placeholder {
+    color: #5476de93;
+    text-align: center;
   }
+}
+
+.form {
+  text-align: center;
+}

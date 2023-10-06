@@ -14,7 +14,7 @@ export default function Task({ label, done, id, toggleDoneTask, deleteTask }) {
             toggleDoneTask(id);
           }}
         />
-        {label}
+        <span>{label}</span>
         <button
           type="button"
           className="delete"

@@ -1,5 +1,7 @@
 .list-item {
-  display: block;
+  display: flex;
+  justify-content: space-between;
+  // display: block;
   background: #F9F871;
   color: #5476DE;
   font-size: 1.5em;
@@ -11,15 +13,21 @@
     opacity: 0.5;
     text-decoration: line-through;
   }
+  max-width: 100%;
+  & span {
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  }
 }
 
 ul{
   padding-inline-start: 0px;
 }
 .delete {
-  display: block;
-  float: right;
-  font-size: 1.3rem;
+  align-self: center;
+  font-size: 20px;
+  height: 28px;
+  
   background-color: #5476DE;
   color: #CA70D2;
   border: 2px solid #5476DE;

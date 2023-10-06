@@ -5,6 +5,7 @@ import Form from '../Form';
 import './styles.scss';
 import data from '../../data/tasks';
 import { useState } from 'react'
+import Header from '../Header';
 
 
 export default function App() {
@@ -60,7 +61,7 @@ export default function App() {
 
   return (
     <div className="app">
-      <h1>My To-Do List</h1>
+      <Header />
       <Form
         newTaskLabel={newTaskLabel}
         setNewTaskLabel={setNewTaskLabel}
@@ -72,6 +73,7 @@ export default function App() {
         toggleDoneTask={toggleDoneTask}
         deleteTask={deleteTask}
       />
+      <a href="https://www.flaticon.com/free-icons/sticky-notes" title="sticky notes icons">Sticky notes icons created by Freepik - Flaticon</a>
     </div>
   );
 }

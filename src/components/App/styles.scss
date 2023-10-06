@@ -1,10 +1,21 @@
 .app {
-  max-width: 500px;
+  max-width: 900px;
   margin: 2rem auto;
 }
 
-h1 {
-  color: #FF75AD;
-  text-align: center;
-  margin: 5rem;
+a {
+  display: block;
+  position: absolute;
+  bottom: 2%;
+  color: #410547;
+  text-decoration: none;
+  right: 2%;
+  font-size: 0.60rem;
+}
+
+@media screen and (max-width: 1300px){
+  .app {
+    max-width: 70%;
+    margin: 2rem auto;
+  }
 }
