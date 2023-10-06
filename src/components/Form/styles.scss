@@ -1,15 +1,18 @@
 .form-item {
   width: 98%;
-  color: #5476DE;
+  color: #806DA0;
   font-size: 2em;
-  background: #F9F871;
-  border: 1px solid #5476DE;
+  background: #ebeba7;
+  border: 1px solid #806DA0;
   border-radius: 5px;
   padding: 1rem 1%;
 
   &::placeholder {
-    color: #5476de93;
+    color: #806DA0;
     text-align: center;
+  }
+  &:focus::placeholder {
+    color: #806da096;
   }
 }
 
