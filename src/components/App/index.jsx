@@ -4,14 +4,19 @@ import Tasks from '../Tasks';
 import Form from '../Form';
 import './styles.scss';
 import data from '../../data/tasks';
-import { useState } from 'react'
+import { useState, useEffect} from 'react'
 import Header from '../Header';
 import Footer from '../Footer';
 
 
 export default function App() {
-  const [tasksList, setTasks] = useState(data);
+  const [tasksList, setTasks] = useState(JSON.parse(localStorage.getItem("tasks") || "[]"));
   const [newTaskLabel, setNewTaskLabel] = useState('');
+
+  useEffect(() => {
+    console.log(tasksList);
+    localStorage.setItem("tasks", JSON.stringify(tasksList));
+  }, [tasksList]);
 
   const generateNewId = () => {
 
